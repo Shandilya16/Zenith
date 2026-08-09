@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Zenith — AI-Powered Personal Productivity & Workflow System
 
-# Run and deploy your AI Studio app
+[![Tech Stack](https://img.shields.io/badge/Stack-React%2018%20%7C%20TypeScript%20%7C%20TailwindCSS%20%7C%20Gemini%20API-blue)](#tech-stack)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This contains everything you need to run your app locally.
+##  Overview
+**Zenith** is a modern, high-performance web application designed to streamline daily personal productivity, task tracking, and dynamic workflow automation through real-time AI assistance. Built with a responsive React and TypeScript frontend, Zenith leverages Google's Gemini API to deliver context-aware user insights and task management.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MWl_6dCYLrTyu84QJRCPJeazLRBnABIu
+---
 
-## Run Locally
+##  Key Technical Features
+* **Interactive AI Assistant:** Integrated Gemini API endpoints for context-aware prompt parsing, automated task extraction, and dynamic schedule generation.
+* **Component-Driven UI:** Modular React components styled with Tailwind CSS, supporting dark/light UI modes and responsive layouts across viewports.
+* **Type-Safe Architecture:** Full TypeScript implementation ensuring strict compile-time checks, centralized data models, and scalable state management.
+* **State & Context Management:** Built-in React Context API handlers for smooth local state synchronization and responsive component updates.
 
-**Prerequisites:**  Node.js
+---
 
+##  Tech Stack
+* **Frontend:** React 18, TypeScript, Vite, Tailwind CSS, Lucide Icons
+* **AI & API Integration:** Google AI Studio / Gemini API, Axios
+* **Tooling & Environment:** Node.js, npm, PostCSS
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+##  Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Shandilya16/Zenith.git](https://github.com/Shandilya16/Zenith.git)
+   cd Zenith
