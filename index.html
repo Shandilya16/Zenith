@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZENITH Fitness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#10b981', // emerald-500
+              'primary-hover': '#059669', // emerald-600
+              'secondary': '#334155', // slate-700
+              'background': '#0f172a', // slate-900
+              'card': '#1e293b', // slate-800
+              'card-light': '#334155', // slate-700
+              'text-primary': '#f1f5f9', // slate-100
+              'text-secondary': '#94a3b8', // slate-400
+              'border': '#334155', // slate-700
+              'warning': '#f43f5e' // rose-500
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

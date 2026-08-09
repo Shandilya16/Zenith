@@ -1,0 +1,5 @@
+{
+  "name": "ZENITH Fitness Dashboard",
+  "description": "A simple, two-sided, mobile-responsive web app for a fitness instructor and his clients to manage schedules, track renewals, and communicate 1-to-1.",
+  "requestFramePermissions": []
+}
